@@ -1,0 +1,13 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+*.uid
+*.import
+*.tmp
+
+# gd-plug
+.plugged/
+
+# Godot addons — игнорируем всё, кроме самого gd-plug
+addons/*
+!addons/gd-plug/
